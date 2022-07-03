@@ -1,0 +1,11 @@
+# Personal Account
+Host git@github.com
+	PreferredAuthentications publickey
+	HostName github.com
+	IdentityFile ~/.ssh/id_ed25519
+
+# IntelliCulture Account
+Host git@gitlab.com
+        PreferredAuthentications publickey
+	HostName gitlab.com
+        IdentityFile ~/.ssh/id_ed25519_ic
