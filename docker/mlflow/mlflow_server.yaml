@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  mlflow:
+    restart: always
+    build: .
+    container_name: mlflow_server
+    ports:
+        - "5000:5000"
+    volumes:
+      - ./mlruns:/mlruns
+    command: mlflow server --host 0.0.0.0        
