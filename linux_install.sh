@@ -21,6 +21,8 @@ snaps () {
     snap install postman
     snap install slack 
 	snap install spotify
+	snap install cura-slicer
+	snap install gimp
 }
 
 docker () {
@@ -33,3 +35,7 @@ apt
 snaps
 docker
 
+# Add neovim config here 
+
+# Git config steps
+git config --global core.editor "nvim"
