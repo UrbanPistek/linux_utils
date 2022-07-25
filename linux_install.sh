@@ -39,3 +39,9 @@ docker
 
 # Git config steps
 git config --global core.editor "nvim"
+
+# Go Install
+
+# Rust install
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
