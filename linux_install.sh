@@ -21,6 +21,8 @@ snaps () {
     snap install postman
     snap install slack 
 	snap install spotify
+	snap install cura-slicer
+	snap install gimp
 }
 
 docker () {
@@ -32,4 +34,14 @@ echo "Setting up linux"
 apt
 snaps
 docker
+
+# Add neovim config here 
+
+# Git config steps
+git config --global core.editor "nvim"
+
+# Go Install
+
+# Rust install
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 

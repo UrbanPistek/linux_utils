@@ -15,6 +15,7 @@ Plug 'https://github.com/preservim/tagbar' " Variables browser
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Autocomplete
 Plug 'vim-airline/vim-airline-themes'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Color theme
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
